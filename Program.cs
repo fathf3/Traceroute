@@ -42,6 +42,7 @@ namespace MultiThreading
 
             sourceMAC = selectedDevice.GetMacAddress(); //PC MAC adresi
             
+            // Kendi Default Getway MAC adresinizi yazmalısınız, wireshark programı ile getway mac adresini ogrenebilirsiniz
             destinationMAC = new MacAddress("d4:5d:64:15:a2:f0"); // Default Getway MAC adresi
 
             sourceIP_str = null;
